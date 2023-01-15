@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 144, 14, 0.1);
+    padding: 40px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 40px;
+}
+.banner{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 20px;
+}
+.banner-image{
+    margin-top: 30px;
+}
+.banner-info{
+    text-align: center;
+}
+.banner-info p{
+    padding: 10px;
+}
+.banner-info h2{
+    font-size: 64px;
+    font-weight: 700;
+}
+.feature{
+    margin-top: 40px;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.feature-info{
+    padding: 30px;
+}
+.pictures{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:15px;
+}
+.btn-primary{
+    color: white;
+    font-weight: 600px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    padding: 10px 20px;
+    border: none;
+
+}
+.info-section{
+    margin-top: 40px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-content{
+    padding: 20px;
+}
+.info-details{
+margin-top: 20px;
+}
+.experiance-button{
+    position: relative;
+}
+.btn{
+    color: white;
+    font-weight: 600px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    padding: 10px 20px;
+    border: none;
+    position: absolute;
+    left: 630px;
+    bottom: -10px;
+}
+.award{
+    display: flex;
+ justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.fact-section{
+    margin-top: 40px;
+}
+.facts-info{
+    padding: 20px;
+}
+.skill{
+    border: 1px solid #FF900E;
+    border-radius:10px;
+    width: 150px;
+    padding: 20px;
+    
+}
+.sponsor-section{
+    margin-top: 40px;
+}
+.sponsor{
+    text-align: center;
+}
+.sponsor-icon{
+display: flex;
+justify-content: space-evenly;
+margin-top: 40px;
+}
+.comment{
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background-color: black;
+}
+.comment textarea{
+    margin-bottom: 20px;
+}
+.footer{
+    background: #FFF4E7;
+padding: 40px;
+text-align: center;
+}
